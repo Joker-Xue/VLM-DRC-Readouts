@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+outputs/
+figures/out/
+experiments/results/corrected_debate_20260922_v3_n2000/per_region.json
+experiments/results/*/unpaired_bootstrap_vs_compare.json
+data/circuitnet_n28/
+data/render_cache/
+.thirdparty/

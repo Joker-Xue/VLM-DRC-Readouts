@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows a dense cluster of cells with high RUDY demand and some routing congestion, but the CNN prediction is weak.",
+ "p_hotspot": 0.4,
+ "_elapsed_s": 14.9
+}

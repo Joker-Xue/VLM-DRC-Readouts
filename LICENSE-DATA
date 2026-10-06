@@ -1,0 +1,10 @@
+The saved experiment results (experiments/results/), prompts (experiments/agents/prompts/),
+reference outputs (reference_outputs/) and derived CNN evidence (data/evidence_cache/) in this
+repository are licensed under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Xushen Lin and Zhuoyi Wang.
+
+The evidence cache is derived from the CircuitNet-N28 dataset using the official RouteNet
+weights distributed by the CircuitNet project. CircuitNet itself is not redistributed here and
+remains subject to its own licence.

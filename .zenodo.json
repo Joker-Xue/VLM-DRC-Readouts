@@ -1,0 +1,12 @@
+{
+  "title": "VLM Readouts for DRC Hotspot Detection: code, prompts and results",
+  "upload_type": "software",
+  "description": "Code, exact prompts and saved per-region results accompanying the article 'Vision-Language Readouts for DRC Hotspot Detection: A Calibrated CNN Baseline and a Matched-Control Test of Multi-Agent Debate' (IEEE Access, submitted). Every table and figure of the article can be recomputed from the saved results with `make reproduce`, without running any model.",
+  "creators": [
+    {"name": "Lin, Xushen", "affiliation": "Hohai University"},
+    {"name": "Wang, Zhuoyi", "affiliation": "Hohai University"}
+  ],
+  "license": "MIT",
+  "keywords": ["design rule check", "DRC hotspot", "vision-language model", "multi-agent debate", "calibration", "selective prediction", "CircuitNet"],
+  "access_right": "open"
+}

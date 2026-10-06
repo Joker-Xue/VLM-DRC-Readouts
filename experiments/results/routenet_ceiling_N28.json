@@ -1,0 +1,75 @@
+{
+  "config": {
+    "weights": "/Users/jokerxue/\u6797\u65ed\u71ca/MA- LayoutGuard/paper&experiment/.thirdparty/CircuitNet/pretrained_weights/DRC.pth",
+    "csv": "/Users/jokerxue/\u6797\u65ed\u71ca/MA- LayoutGuard/paper&experiment/.thirdparty/CircuitNet/routability_ir_drop_prediction/files/test_N28.csv",
+    "dataroot": "/Users/jokerxue/\u6797\u65ed\u71ca/MA- LayoutGuard/paper&experiment/data/circuitnet_n28/training_set/DRC",
+    "limit": 0,
+    "label_thr": 0.0,
+    "device": "mps",
+    "out": "/Users/jokerxue/\u6797\u65ed\u71ca/MA- LayoutGuard/paper&experiment/experiments/results/routenet_ceiling_N28.json"
+  },
+  "in_channels": 9,
+  "n_patches": 3164,
+  "metrics": {
+    "ALL": {
+      "n_pos": 17227840,
+      "n_neg": 190128064,
+      "base_rate": 0.08308343127765487,
+      "roc_auc": 0.8066125364956309,
+      "pr_auc": 0.6440451295301922,
+      "best_f1": 0.5875163239593015,
+      "best_thr": 0.0025,
+      "ece": 0.07848328000344759
+    },
+    "design:zero": {
+      "n_pos": 17227840,
+      "n_neg": 190128064,
+      "base_rate": 0.08308343127765487,
+      "roc_auc": 0.8066125364956309,
+      "pr_auc": 0.6440451295301922,
+      "best_f1": 0.5875163239593015,
+      "best_thr": 0.0025,
+      "ece": 0.07848328000344759
+    },
+    "strength:clean(<0.01)": {
+      "n_pos": 113727,
+      "n_neg": 7488449,
+      "base_rate": 0.014959795721646013,
+      "roc_auc": 0.5176363349470724,
+      "pr_auc": 0.024141642164601854,
+      "best_f1": 0.04217169906046045,
+      "best_thr": 0.0015,
+      "ece": 0.014403549194335938
+    },
+    "strength:mid[0.05,0.20)": {
+      "n_pos": 1625784,
+      "n_neg": 38678856,
+      "base_rate": 0.04033739043445122,
+      "roc_auc": 0.6528133664318471,
+      "pr_auc": 0.16678518131135006,
+      "best_f1": 0.2212879788204179,
+      "best_thr": 0.0025,
+      "ece": 0.039337225887639736
+    },
+    "strength:strong[>=0.20]": {
+      "n_pos": 13125229,
+      "n_neg": 59554195,
+      "base_rate": 0.18059071299189164,
+      "roc_auc": 0.8685833851269802,
+      "pr_auc": 0.810330442724191,
+      "best_f1": 0.7334678577467806,
+      "best_thr": 0.0025,
+      "ece": 0.1688205251323951
+    },
+    "strength:weak[0.01,0.05)": {
+      "n_pos": 2363100,
+      "n_neg": 84406564,
+      "base_rate": 0.027234172532925795,
+      "roc_auc": 0.5600410038079198,
+      "pr_auc": 0.07226280625667049,
+      "best_f1": 0.11547726111424969,
+      "best_thr": 0.0015,
+      "ece": 0.026613461820020418
+    }
+  }
+}

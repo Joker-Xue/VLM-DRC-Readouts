@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows a dense cluster of bright pixels in the CNN_prior map, indicating a potential hotspot area.",
+ "p_hotspot": 0.85,
+ "_elapsed_s": 14.4
+}

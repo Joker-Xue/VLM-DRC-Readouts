@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows dense routing congestion and a few localized clusters of high cell density, but the CNN prediction is weak.",
+ "p_hotspot": 0.6,
+ "_elapsed_s": 14.8
+}

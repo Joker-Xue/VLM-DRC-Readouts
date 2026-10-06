@@ -1,0 +1,4802 @@
+[
+  {
+    "patch_id": "8693-zero-riscy-a-3-c2-u0.9-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 39,
+      "y": 157,
+      "radius": 8
+    },
+    "label_strength": 0.15007781982421875,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 39,
+          "y": 157,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.6,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior map shows a localized bright area, indicating a potential hotspot.",
+            "p_hotspot": 0.6
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.437388896942139
+      }
+    }
+  },
+  {
+    "patch_id": "8235-zero-riscy-a-2-c5-u0.8-m2-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in zoom panels, suggesting low risk.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 8.67997694015503
+      }
+    }
+  },
+  {
+    "patch_id": "8022-zero-riscy-a-2-c2-u0.8-m1-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 92,
+      "y": 88,
+      "radius": 8
+    },
+    "label_strength": 0.0011492054909467697,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 92,
+          "y": 88,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity spikes, indicating potential hotspot risk. The CNN_prior panel has a bright blob, suggesting a high probability of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 8.769239664077759
+      }
+    }
+  },
+  {
+    "patch_id": "8107-zero-riscy-a-2-c5-u0.7-m3-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating no high risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 9.205947875976562
+      }
+    }
+  },
+  {
+    "patch_id": "7934-zero-riscy-a-2-c2-u0.75-m4-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 86,
+      "y": 219,
+      "radius": 8
+    },
+    "label_strength": 0.015965543687343597,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 86,
+          "y": 219,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "RUDY_long and RUDY_pin show localized bright spikes inside the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 9.755786657333374
+      }
+    }
+  },
+  {
+    "patch_id": "7539-zero-riscy-a-1-c5-u0.75-m2-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 117,
+      "y": 65,
+      "radius": 8
+    },
+    "label_strength": 5.8809171605389565e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 117,
+          "y": 65,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright spot inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 9.886421918869019
+      }
+    }
+  },
+  {
+    "patch_id": "10085-zero-riscy-b-3-c5-u0.8-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 171,
+      "y": 124,
+      "radius": 8
+    },
+    "label_strength": 0.0170268751680851,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 171,
+          "y": 124,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure with bright bands and dense clusters, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.109001874923706
+      }
+    }
+  },
+  {
+    "patch_id": "10125-zero-riscy-b-3-c5-u0.9-m1-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 163,
+      "y": 179,
+      "radius": 8
+    },
+    "label_strength": 0.13820716738700867,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 163,
+          "y": 179,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure with sharp spikes and dense clusters inside the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.120994806289673
+      }
+    }
+  },
+  {
+    "patch_id": "7802-zero-riscy-a-1-c20-u0.75-m1-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 92,
+      "y": 29,
+      "radius": 8
+    },
+    "label_strength": 5.8809171605389565e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 92,
+          "y": 29,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity regions, suggesting potential hotspots.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.410516023635864
+      }
+    }
+  },
+  {
+    "patch_id": "8676-zero-riscy-a-3-c2-u0.85-m2-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.908413887023926
+      }
+    }
+  },
+  {
+    "patch_id": "8153-zero-riscy-a-2-c5-u0.8-m2-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoomed-in region.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.592385053634644
+      }
+    }
+  },
+  {
+    "patch_id": "8214-zero-riscy-a-2-c5-u0.75-m2-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright blobs are visible in the zoom panels, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.978503942489624
+      }
+    }
+  },
+  {
+    "patch_id": "7117-zero-riscy-a-1-c2-u0.7-m3-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structures or bright spots in the zoomed-in panels; no high risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.195342063903809
+      }
+    }
+  },
+  {
+    "patch_id": "7834-zero-riscy-a-1-c20-u0.8-m2-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 184,
+      "y": 164,
+      "radius": 8
+    },
+    "label_strength": 0.0009554798598401248,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 184,
+          "y": 164,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no hotspot risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.94386887550354
+      }
+    }
+  },
+  {
+    "patch_id": "8443-zero-riscy-a-2-c20-u0.85-m1-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 206,
+      "y": 105,
+      "radius": 8
+    },
+    "label_strength": 0.008627205155789852,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 206,
+          "y": 105,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures, but no clear bright blob indicating a high-risk hotspot.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.498109102249146
+      }
+    }
+  },
+  {
+    "patch_id": "8853-zero-riscy-a-3-c5-u0.75-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in any zoom panel, indicating no high probability of hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.396037817001343
+      }
+    }
+  },
+  {
+    "patch_id": "9473-zero-riscy-b-1-c5-u0.9-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 176,
+      "y": 101,
+      "radius": 8
+    },
+    "label_strength": 0.28715071082115173,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 176,
+          "y": 101,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, suggesting a high risk of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.277071714401245
+      }
+    }
+  },
+  {
+    "patch_id": "8462-zero-riscy-a-2-c20-u0.85-m3-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 194,
+      "y": 113,
+      "radius": 8
+    },
+    "label_strength": 0.002363525563850999,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 194,
+          "y": 113,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures, but no clear bright blob within the red box.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.321653127670288
+      }
+    }
+  },
+  {
+    "patch_id": "7628-zero-riscy-a-1-c20-u0.7-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 174,
+      "y": 88,
+      "radius": 8
+    },
+    "label_strength": 0.00011982904106844217,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 174,
+          "y": 88,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show dense clusters and sharp spikes in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.110558986663818
+      }
+    }
+  },
+  {
+    "patch_id": "8051-zero-riscy-a-2-c2-u0.85-m2-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 200,
+      "y": 165,
+      "radius": 8
+    },
+    "label_strength": 0.00029756457661278546,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 200,
+          "y": 165,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.828063726425171
+      }
+    }
+  },
+  {
+    "patch_id": "8306-zero-riscy-a-2-c20-u0.7-m2-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 230,
+      "y": 125,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 230,
+          "y": 125,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating no high probability of a hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.89242696762085
+      }
+    }
+  },
+  {
+    "patch_id": "9765-zero-riscy-b-2-c5-u0.8-m2-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 165,
+      "y": 78,
+      "radius": 8
+    },
+    "label_strength": 0.0326157808303833,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 165,
+          "y": 78,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, suggesting a hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.421740055084229
+      }
+    }
+  },
+  {
+    "patch_id": "10344-zero-riscy-b-3-c20-u0.85-m2-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 239,
+      "y": 138,
+      "radius": 8
+    },
+    "label_strength": 9.578785102348775e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 239,
+          "y": 138,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures, but no clear bright blob in the CNN_prior panel.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.819228172302246
+      }
+    }
+  },
+  {
+    "patch_id": "7694-zero-riscy-a-1-c20-u0.8-m1-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots are observed in the zoom panels, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.91136884689331
+      }
+    }
+  },
+  {
+    "patch_id": "10166-zero-riscy-b-3-c5-u0.7-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 227,
+      "y": 197,
+      "radius": 8
+    },
+    "label_strength": 0.0014788105618208647,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 227,
+          "y": 197,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.734809160232544
+      }
+    }
+  },
+  {
+    "patch_id": "7674-zero-riscy-a-1-c20-u0.75-m3-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots in zoom panels, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.29911994934082
+      }
+    }
+  },
+  {
+    "patch_id": "9766-zero-riscy-b-2-c5-u0.8-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 163,
+      "y": 62,
+      "radius": 8
+    },
+    "label_strength": 0.02310088835656643,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 163,
+          "y": 62,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.3,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure with sharp spikes and dense clusters, but no clear bright blob in the CNN_prior panel.",
+            "p_hotspot": 0.3
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.80973482131958
+      }
+    }
+  },
+  {
+    "patch_id": "8935-zero-riscy-a-3-c5-u0.9-m3-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in the zoom panels.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.166481018066406
+      }
+    }
+  },
+  {
+    "patch_id": "9657-zero-riscy-b-1-c20-u0.8-m2-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 127,
+      "y": 156,
+      "radius": 8
+    },
+    "label_strength": 0.0017770568374544382,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 127,
+          "y": 156,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized dense clusters and bright bands, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.475894927978516
+      }
+    }
+  },
+  {
+    "patch_id": "7264-zero-riscy-a-1-c2-u0.7-m3-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.026262044906616
+      }
+    }
+  },
+  {
+    "patch_id": "10360-zero-riscy-b-3-c20-u0.9-m2-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 169,
+      "y": 170,
+      "radius": 8
+    },
+    "label_strength": 0.10090663284063339,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 169,
+          "y": 170,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright regions, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.110872030258179
+      }
+    }
+  },
+  {
+    "patch_id": "8940-zero-riscy-a-3-c5-u0.9-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoom panels; no strong local structure observed.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.76273512840271
+      }
+    }
+  },
+  {
+    "patch_id": "8542-zero-riscy-a-3-c2-u0.75-m4-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 213,
+      "y": 172,
+      "radius": 8
+    },
+    "label_strength": 0.000413982110330835,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 213,
+          "y": 172,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating no high-risk hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.037280082702637
+      }
+    }
+  },
+  {
+    "patch_id": "7247-zero-riscy-a-1-c2-u0.7-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.25688099861145
+      }
+    }
+  },
+  {
+    "patch_id": "10065-zero-riscy-b-3-c5-u0.75-m2-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 104,
+      "y": 114,
+      "radius": 8
+    },
+    "label_strength": 8.615701517555863e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 104,
+          "y": 114,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.177150249481201
+      }
+    }
+  },
+  {
+    "patch_id": "7431-zero-riscy-a-1-c5-u0.8-m1-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright regions in zoom panels; no strong evidence of hotspots.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.009615898132324
+      }
+    }
+  },
+  {
+    "patch_id": "9530-zero-riscy-b-1-c5-u0.75-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 230,
+      "y": 143,
+      "radius": 8
+    },
+    "label_strength": 0.0005929218605160713,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 230,
+          "y": 143,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.377424955368042
+      }
+    }
+  },
+  {
+    "patch_id": "9026-zero-riscy-a-3-c20-u0.7-m1-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 0,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 0,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a localized bright spot inside the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.924313068389893
+      }
+    }
+  },
+  {
+    "patch_id": "9956-zero-riscy-b-3-c2-u0.7-m3-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 78,
+      "y": 76,
+      "radius": 8
+    },
+    "label_strength": 0.0008359927451238036,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 78,
+          "y": 76,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized hotspots, particularly in the RUDY_long and RUDY_pin maps, indicating potential DRC issues.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.712983131408691
+      }
+    }
+  },
+  {
+    "patch_id": "9994-zero-riscy-b-3-c2-u0.8-m3-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 174,
+      "y": 215,
+      "radius": 8
+    },
+    "label_strength": 0.004935041535645723,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 174,
+          "y": 215,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, suggesting a hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.812950134277344
+      }
+    }
+  },
+  {
+    "patch_id": "8323-zero-riscy-a-2-c20-u0.75-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high probability of a hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.621768951416016
+      }
+    }
+  },
+  {
+    "patch_id": "8217-zero-riscy-a-2-c5-u0.75-m2-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoom panels; local intensities are low.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.5851149559021
+      }
+    }
+  },
+  {
+    "patch_id": "9058-zero-riscy-a-3-c20-u0.75-m2-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots are observed in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.519900798797607
+      }
+    }
+  },
+  {
+    "patch_id": "8878-zero-riscy-a-3-c5-u0.8-m1-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.137509107589722
+      }
+    }
+  },
+  {
+    "patch_id": "10243-zero-riscy-b-3-c5-u0.85-m3-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 235,
+      "y": 214,
+      "radius": 8
+    },
+    "label_strength": 0.06372928619384766,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 235,
+          "y": 214,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.912620067596436
+      }
+    }
+  },
+  {
+    "patch_id": "9755-zero-riscy-b-2-c5-u0.75-m3-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspots or localized structures are visible in the zoomed-in panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.895660638809204
+      }
+    }
+  },
+  {
+    "patch_id": "8816-zero-riscy-a-3-c5-u0.85-m4-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 190,
+      "y": 79,
+      "radius": 8
+    },
+    "label_strength": 0.6838562488555908,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 190,
+          "y": 79,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a high probability of a hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.476946115493774
+      }
+    }
+  },
+  {
+    "patch_id": "9008-zero-riscy-a-3-c20-u0.8-m3-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in zoom panels; no strong evidence of hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.13668417930603
+      }
+    }
+  },
+  {
+    "patch_id": "8969-zero-riscy-a-3-c20-u0.75-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.003339767456055
+      }
+    }
+  },
+  {
+    "patch_id": "9136-zero-riscy-a-3-c20-u0.9-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots in zoom panels; no clear evidence of hotspot.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.505928993225098
+      }
+    }
+  },
+  {
+    "patch_id": "7869-zero-riscy-a-1-c20-u0.85-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 127,
+      "y": 114,
+      "radius": 8
+    },
+    "label_strength": 0.0013143641408532858,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 127,
+          "y": 114,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.00271487236023
+      }
+    }
+  },
+  {
+    "patch_id": "10177-zero-riscy-b-3-c5-u0.75-m1-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 234,
+      "y": 149,
+      "radius": 8
+    },
+    "label_strength": 0.05361006036400795,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 234,
+          "y": 149,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, suggesting a hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.975066184997559
+      }
+    }
+  },
+  {
+    "patch_id": "8370-zero-riscy-a-2-c20-u0.85-m1-p8-f0",
+    "design": "zero",
+    "region": {
+      "x": 93,
+      "y": 200,
+      "radius": 8
+    },
+    "label_strength": 0.7223925590515137,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 93,
+          "y": 200,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.088785171508789
+      }
+    }
+  },
+  {
+    "patch_id": "7459-zero-riscy-a-1-c5-u0.85-m1-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 228,
+      "y": 98,
+      "radius": 8
+    },
+    "label_strength": 0.3344985544681549,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 228,
+          "y": 98,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized bright spots, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.290966033935547
+      }
+    }
+  },
+  {
+    "patch_id": "7708-zero-riscy-a-1-c20-u0.8-m3-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 232,
+      "y": 64,
+      "radius": 8
+    },
+    "label_strength": 0.0033629443496465683,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 232,
+          "y": 64,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized dense clusters and bright bands, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.311052083969116
+      }
+    }
+  },
+  {
+    "patch_id": "10338-zero-riscy-b-3-c20-u0.85-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 239,
+      "y": 141,
+      "radius": 8
+    },
+    "label_strength": 0.0003640686918515712,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 239,
+          "y": 141,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure with sharp spikes and dense clusters, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.163451194763184
+      }
+    }
+  },
+  {
+    "patch_id": "9386-zero-riscy-b-1-c5-u0.7-m3-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 130,
+      "y": 184,
+      "radius": 8
+    },
+    "label_strength": 6.161983037600294e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 130,
+          "y": 184,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoom panels; no bright blobs or sharp spikes.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.768502950668335
+      }
+    }
+  },
+  {
+    "patch_id": "7543-zero-riscy-a-1-c5-u0.75-m2-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspots or localized structures in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.239432096481323
+      }
+    }
+  },
+  {
+    "patch_id": "7753-zero-riscy-a-1-c20-u0.9-m1-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 59,
+      "y": 87,
+      "radius": 8
+    },
+    "label_strength": 0.07461012154817581,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 59,
+          "y": 87,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.3,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized hotspots in the RUDY and GR routing maps, but CNN_prior does not show a clear bright blob.",
+            "p_hotspot": 0.3
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.199324131011963
+      }
+    }
+  },
+  {
+    "patch_id": "8223-zero-riscy-a-2-c5-u0.75-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blobs in zoom panels; no strong evidence of hotspot.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.790775060653687
+      }
+    }
+  },
+  {
+    "patch_id": "7906-zero-riscy-a-2-c2-u0.7-m3-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 21,
+      "y": 130,
+      "radius": 8
+    },
+    "label_strength": 0.00039223660132847726,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 21,
+          "y": 130,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the RUDY_long and GR_V maps, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.64792275428772
+      }
+    }
+  },
+  {
+    "patch_id": "8880-zero-riscy-a-3-c5-u0.8-m2-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear evidence of hotspots in the zoomed-in region.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.74350881576538
+      }
+    }
+  },
+  {
+    "patch_id": "9441-zero-riscy-b-1-c5-u0.85-m1-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 135,
+      "y": 105,
+      "radius": 8
+    },
+    "label_strength": 0.17762024700641632,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 135,
+          "y": 105,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob, indicating a high risk of a hotspot in the inspected region.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.881911754608154
+      }
+    }
+  },
+  {
+    "patch_id": "7181-zero-riscy-a-1-c2-u0.8-m4-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 216,
+      "y": 78,
+      "radius": 8
+    },
+    "label_strength": 0.000200115202460438,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 216,
+          "y": 78,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a localized bright spot, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.295739889144897
+      }
+    }
+  },
+  {
+    "patch_id": "9851-zero-riscy-b-2-c5-u0.75-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 73,
+      "y": 126,
+      "radius": 8
+    },
+    "label_strength": 0.0036650560796260834,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 73,
+          "y": 126,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright red spot, indicating a high risk of a hotspot in the inspected region.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.285700798034668
+      }
+    }
+  },
+  {
+    "patch_id": "9714-zero-riscy-b-1-c20-u0.9-m3-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 106,
+      "y": 74,
+      "radius": 8
+    },
+    "label_strength": 0.062194403260946274,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 106,
+          "y": 74,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob in the zoomed region, indicating a high risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.39950680732727
+      }
+    }
+  },
+  {
+    "patch_id": "9470-zero-riscy-b-1-c5-u0.9-m1-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 177,
+      "y": 104,
+      "radius": 8
+    },
+    "label_strength": 0.1040230318903923,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 177,
+          "y": 104,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.45297884941101
+      }
+    }
+  },
+  {
+    "patch_id": "8808-zero-riscy-a-3-c5-u0.85-m1-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 98,
+      "y": 154,
+      "radius": 8
+    },
+    "label_strength": 0.8065809607505798,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 98,
+          "y": 154,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior map shows a bright red spot, indicating a high probability of a hotspot in the inspected region.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.433777093887329
+      }
+    }
+  },
+  {
+    "patch_id": "8037-zero-riscy-a-2-c2-u0.8-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 149,
+      "y": 119,
+      "radius": 8
+    },
+    "label_strength": 0.005524442996829748,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 149,
+          "y": 119,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity areas, suggesting potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.843421220779419
+      }
+    }
+  },
+  {
+    "patch_id": "7792-zero-riscy-a-1-c20-u0.7-m3-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.070226907730103
+      }
+    }
+  },
+  {
+    "patch_id": "9013-zero-riscy-a-3-c20-u0.85-m1-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 94,
+      "y": 134,
+      "radius": 8
+    },
+    "label_strength": 0.9244287610054016,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 94,
+          "y": 134,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.560134172439575
+      }
+    }
+  },
+  {
+    "patch_id": "7730-zero-riscy-a-1-c20-u0.85-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 222,
+      "y": 101,
+      "radius": 8
+    },
+    "label_strength": 0.07412222027778625,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 222,
+          "y": 101,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show dense clusters and sharp spikes inside the red box, indicating a high risk of a DRC hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.779343128204346
+      }
+    }
+  },
+  {
+    "patch_id": "7627-zero-riscy-a-1-c20-u0.7-m1-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots are visible in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.871232032775879
+      }
+    }
+  },
+  {
+    "patch_id": "7478-zero-riscy-a-1-c5-u0.85-m3-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 135,
+      "y": 63,
+      "radius": 8
+    },
+    "label_strength": 0.0025939762126654387,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 135,
+          "y": 63,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.6,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity regions, suggesting potential hotspot risk.",
+            "p_hotspot": 0.6
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.648268222808838
+      }
+    }
+  },
+  {
+    "patch_id": "9638-zero-riscy-b-1-c20-u0.75-m2-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 234,
+      "y": 87,
+      "radius": 8
+    },
+    "label_strength": 0.00017281525651924312,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 234,
+          "y": 87,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear bright spots or dense clusters, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.417115688323975
+      }
+    }
+  },
+  {
+    "patch_id": "9805-zero-riscy-b-2-c5-u0.9-m1-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 116,
+      "y": 101,
+      "radius": 8
+    },
+    "label_strength": 0.02906913124024868,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 116,
+          "y": 101,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the RUDY_long and GR_H maps, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.55307412147522
+      }
+    }
+  },
+  {
+    "patch_id": "8524-zero-riscy-a-3-c2-u0.75-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 119,
+      "y": 127,
+      "radius": 8
+    },
+    "label_strength": 0.0024836671072989702,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 119,
+          "y": 127,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.006530046463013
+      }
+    }
+  },
+  {
+    "patch_id": "8508-zero-riscy-a-3-c2-u0.7-m3-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 161,
+      "y": 215,
+      "radius": 8
+    },
+    "label_strength": 0.00038824568036943674,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 161,
+          "y": 215,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized bright regions, suggesting potential hotspots. The CNN_prior panel has a bright blob, indicating high risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.599624156951904
+      }
+    }
+  },
+  {
+    "patch_id": "7529-zero-riscy-a-1-c5-u0.75-m1-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 0,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The RUDY_long panel shows a localized bright band within the red box, suggesting a hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.96541690826416
+      }
+    }
+  },
+  {
+    "patch_id": "8167-zero-riscy-a-2-c5-u0.85-m3-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 54,
+      "y": 140,
+      "radius": 8
+    },
+    "label_strength": 0.003375925589352846,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 54,
+          "y": 140,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity clusters, suggesting a hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.78695797920227
+      }
+    }
+  },
+  {
+    "patch_id": "8798-zero-riscy-a-3-c5-u0.8-m3-p8-f0",
+    "design": "zero",
+    "region": {
+      "x": 106,
+      "y": 182,
+      "radius": 8
+    },
+    "label_strength": 0.000582995533477515,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 106,
+          "y": 182,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the RUDY and GR routing maps, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.090659856796265
+      }
+    }
+  },
+  {
+    "patch_id": "7418-zero-riscy-a-1-c5-u0.75-m4-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in zoom panels; local structure is sparse and unremarkable.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.047430992126465
+      }
+    }
+  },
+  {
+    "patch_id": "10341-zero-riscy-b-3-c20-u0.85-m2-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 236,
+      "y": 210,
+      "radius": 8
+    },
+    "label_strength": 0.0006116453441791236,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 236,
+          "y": 210,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity spikes in the RUDY and cell-density maps, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.213161945343018
+      }
+    }
+  },
+  {
+    "patch_id": "9979-zero-riscy-b-3-c2-u0.8-m1-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 234,
+      "y": 68,
+      "radius": 8
+    },
+    "label_strength": 0.0010911315912380815,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 234,
+          "y": 68,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized spikes and dense clusters, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.459855794906616
+      }
+    }
+  },
+  {
+    "patch_id": "7201-zero-riscy-a-1-c2-u0.85-m2-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 200,
+      "y": 96,
+      "radius": 8
+    },
+    "label_strength": 0.04458952695131302,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 200,
+          "y": 96,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.3,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized spikes and dense clusters, but no clear bright blob in the CNN_prior panel.",
+            "p_hotspot": 0.3
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.244904041290283
+      }
+    }
+  },
+  {
+    "patch_id": "7502-zero-riscy-a-1-c5-u0.9-m4-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 195,
+      "y": 91,
+      "radius": 8
+    },
+    "label_strength": 0.06898637115955353,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 195,
+          "y": 91,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.495036840438843
+      }
+    }
+  },
+  {
+    "patch_id": "9935-zero-riscy-b-2-c5-u0.9-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 184,
+      "y": 48,
+      "radius": 8
+    },
+    "label_strength": 0.10239002108573914,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 184,
+          "y": 48,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright blobs, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.68076205253601
+      }
+    }
+  },
+  {
+    "patch_id": "7535-zero-riscy-a-1-c5-u0.75-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.865851879119873
+      }
+    }
+  },
+  {
+    "patch_id": "9038-zero-riscy-a-3-c20-u0.7-m3-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.41934084892273
+      }
+    }
+  },
+  {
+    "patch_id": "7271-zero-riscy-a-1-c2-u0.75-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear evidence of hotspots in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.275914907455444
+      }
+    }
+  },
+  {
+    "patch_id": "8390-zero-riscy-a-2-c20-u0.7-m3-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 226,
+      "y": 126,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 226,
+          "y": 126,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands inside the red box, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.205905199050903
+      }
+    }
+  },
+  {
+    "patch_id": "8161-zero-riscy-a-2-c5-u0.8-m4-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 233,
+      "y": 233,
+      "radius": 8
+    },
+    "label_strength": 3.5427543480182067e-05,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 233,
+          "y": 233,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show dense clusters and sharp spikes in the red box, indicating a high risk of hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.209888935089111
+      }
+    }
+  },
+  {
+    "patch_id": "10037-zero-riscy-b-3-c5-u0.7-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 17,
+      "y": 218,
+      "radius": 8
+    },
+    "label_strength": 0.0186920203268528,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 17,
+          "y": 218,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.3,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures, but no clear bright blob in the CNN_prior panel.",
+            "p_hotspot": 0.3
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.980215787887573
+      }
+    }
+  },
+  {
+    "patch_id": "7591-zero-riscy-a-1-c5-u0.85-m2-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in zoom panels; no bright blobs or sharp spikes.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.681517124176025
+      }
+    }
+  },
+  {
+    "patch_id": "10248-zero-riscy-b-3-c5-u0.9-m1-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 163,
+      "y": 178,
+      "radius": 8
+    },
+    "label_strength": 0.15171870589256287,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 163,
+          "y": 178,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.162492036819458
+      }
+    }
+  },
+  {
+    "patch_id": "8908-zero-riscy-a-3-c5-u0.85-m2-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot or localized structure in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.834107160568237
+      }
+    }
+  },
+  {
+    "patch_id": "8503-zero-riscy-a-3-c2-u0.7-m2-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no high-risk DRC hotspots.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.10092806816101
+      }
+    }
+  },
+  {
+    "patch_id": "8912-zero-riscy-a-3-c5-u0.85-m3-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright spots in zoom panels; no strong evidence of hotspots.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.440909147262573
+      }
+    }
+  },
+  {
+    "patch_id": "8689-zero-riscy-a-3-c2-u0.9-m1-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 43,
+      "y": 161,
+      "radius": 8
+    },
+    "label_strength": 0.4413031339645386,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 43,
+          "y": 161,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior map shows a localized bright area, indicating a potential hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.842257022857666
+      }
+    }
+  },
+  {
+    "patch_id": "8064-zero-riscy-a-2-c2-u0.85-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 70,
+      "y": 142,
+      "radius": 8
+    },
+    "label_strength": 0.0016570973675698042,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 70,
+          "y": 142,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show dense clusters and sharp spikes, indicating high risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.238263845443726
+      }
+    }
+  },
+  {
+    "patch_id": "9288-zero-riscy-b-1-c2-u0.85-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 209,
+      "y": 73,
+      "radius": 8
+    },
+    "label_strength": 0.010729807429015636,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 209,
+          "y": 73,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob within the red box, indicating a high probability of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.89241909980774
+      }
+    }
+  },
+  {
+    "patch_id": "8841-zero-riscy-a-3-c5-u0.7-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no hotspot risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.931666851043701
+      }
+    }
+  },
+  {
+    "patch_id": "8921-zero-riscy-a-3-c5-u0.9-m1-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 213,
+      "y": 161,
+      "radius": 8
+    },
+    "label_strength": 0.052189528942108154,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 213,
+          "y": 161,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized spikes and dense clusters, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.189141988754272
+      }
+    }
+  },
+  {
+    "patch_id": "9737-zero-riscy-b-2-c5-u0.7-m3-p8-f0",
+    "design": "zero",
+    "region": {
+      "x": 39,
+      "y": 90,
+      "radius": 8
+    },
+    "label_strength": 0.05983836576342583,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 39,
+          "y": 90,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.550670146942139
+      }
+    }
+  },
+  {
+    "patch_id": "8786-zero-riscy-a-3-c5-u0.8-m2-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 162,
+      "y": 132,
+      "radius": 8
+    },
+    "label_strength": 0.41652339696884155,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 162,
+          "y": 132,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized spikes and dense clusters in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.683906078338623
+      }
+    }
+  },
+  {
+    "patch_id": "7472-zero-riscy-a-1-c5-u0.85-m2-p8-f0",
+    "design": "zero",
+    "region": {
+      "x": 216,
+      "y": 90,
+      "radius": 8
+    },
+    "label_strength": 0.006710180547088385,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 216,
+          "y": 90,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "Bright red and orange pixels in the zoom panels suggest a hotspot in the red box, indicating high risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.963871002197266
+      }
+    }
+  },
+  {
+    "patch_id": "9140-zero-riscy-b-1-c2-u0.7-m1-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 89,
+      "y": 126,
+      "radius": 8
+    },
+    "label_strength": 0.09238772839307785,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 89,
+          "y": 126,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity regions, suggesting potential hotspots.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.847648859024048
+      }
+    }
+  },
+  {
+    "patch_id": "9568-zero-riscy-b-1-c5-u0.85-m2-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 134,
+      "y": 104,
+      "radius": 8
+    },
+    "label_strength": 0.1908191293478012,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 134,
+          "y": 104,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures and bright bands, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.121140956878662
+      }
+    }
+  },
+  {
+    "patch_id": "7295-zero-riscy-a-1-c2-u0.8-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in zoom panels or macro view. Local intensities are low and diffuse.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.06508493423462
+      }
+    }
+  },
+  {
+    "patch_id": "9875-zero-riscy-b-2-c5-u0.8-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 166,
+      "y": 79,
+      "radius": 8
+    },
+    "label_strength": 0.0179823599755764,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 166,
+          "y": 79,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity spikes and dense clusters, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.66648006439209
+      }
+    }
+  },
+  {
+    "patch_id": "8983-zero-riscy-a-3-c20-u0.75-m3-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.027657985687256
+      }
+    }
+  },
+  {
+    "patch_id": "10203-zero-riscy-b-3-c5-u0.8-m1-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 170,
+      "y": 125,
+      "radius": 8
+    },
+    "label_strength": 0.07016430795192719,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 170,
+          "y": 125,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure with sharp spikes and dense clusters inside the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 13.193921089172363
+      }
+    }
+  },
+  {
+    "patch_id": "9298-zero-riscy-b-1-c2-u0.85-m2-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 133,
+      "y": 212,
+      "radius": 8
+    },
+    "label_strength": 0.16526499390602112,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 133,
+          "y": 212,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright red spot inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.93418288230896
+      }
+    }
+  },
+  {
+    "patch_id": "7360-zero-riscy-a-1-c2-u0.9-m3-p8-f1",
+    "design": "zero",
+    "region": {
+      "x": 119,
+      "y": 85,
+      "radius": 8
+    },
+    "label_strength": 0.18574798107147217,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 119,
+          "y": 85,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.919136047363281
+      }
+    }
+  },
+  {
+    "patch_id": "7526-zero-riscy-a-1-c5-u0.7-m3-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 0,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 0,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands, indicating low risk.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.887638092041016
+      }
+    }
+  },
+  {
+    "patch_id": "10332-zero-riscy-b-3-c20-u0.85-m1-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 239,
+      "y": 140,
+      "radius": 8
+    },
+    "label_strength": 0.0001887070684460923,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 239,
+          "y": 140,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob within the red box, indicating a high risk of a DRC hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.51043701171875
+      }
+    }
+  },
+  {
+    "patch_id": "8812-zero-riscy-a-3-c5-u0.85-m1-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 95,
+      "y": 153,
+      "radius": 8
+    },
+    "label_strength": 0.8510435819625854,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 95,
+          "y": 153,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob within the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.827785015106201
+      }
+    }
+  },
+  {
+    "patch_id": "10039-zero-riscy-b-3-c5-u0.7-m2-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 18,
+      "y": 217,
+      "radius": 8
+    },
+    "label_strength": 0.018706975504755974,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 18,
+          "y": 217,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands; the CNN_prior panel is dark.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.169788837432861
+      }
+    }
+  },
+  {
+    "patch_id": "9057-zero-riscy-a-3-c20-u0.75-m2-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 0,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 0,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob, indicating a high probability of a hotspot.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.631763935089111
+      }
+    }
+  },
+  {
+    "patch_id": "8500-zero-riscy-a-3-c2-u0.7-m2-p2-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in zoom panels; no strong local structure observed.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.5205979347229
+      }
+    }
+  },
+  {
+    "patch_id": "8118-zero-riscy-a-2-c5-u0.7-m4-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright spots in the zoom panels. The CNN_prior map is also unremarkable.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.885271072387695
+      }
+    }
+  },
+  {
+    "patch_id": "7486-zero-riscy-a-1-c5-u0.85-m4-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 210,
+      "y": 103,
+      "radius": 8
+    },
+    "label_strength": 0.002309350995346904,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 210,
+          "y": 103,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized bright spikes and dense clusters in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.186132907867432
+      }
+    }
+  },
+  {
+    "patch_id": "8013-zero-riscy-a-2-c2-u0.75-m3-p3-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspots or localized structures in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.904297828674316
+      }
+    }
+  },
+  {
+    "patch_id": "8408-zero-riscy-a-2-c20-u0.75-m2-p6-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence; zoom panels show no significant localized structure.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.178709983825684
+      }
+    }
+  },
+  {
+    "patch_id": "9716-zero-riscy-b-2-c5-u0.7-m1-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 75,
+      "y": 134,
+      "radius": 8
+    },
+    "label_strength": 0.0003926310455426574,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 75,
+          "y": 134,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright bands, indicating no high risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.030198097229004
+      }
+    }
+  },
+  {
+    "patch_id": "8949-zero-riscy-a-3-c20-u0.7-m1-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.469388246536255
+      }
+    }
+  },
+  {
+    "patch_id": "10110-zero-riscy-b-3-c5-u0.85-m2-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 18,
+      "y": 202,
+      "radius": 8
+    },
+    "label_strength": 0.02333800680935383,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 18,
+          "y": 202,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.719596147537231
+      }
+    }
+  },
+  {
+    "patch_id": "9424-zero-riscy-b-1-c5-u0.8-m2-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 128,
+      "y": 100,
+      "radius": 8
+    },
+    "label_strength": 0.020908372476696968,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 128,
+          "y": 100,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.161516189575195
+      }
+    }
+  },
+  {
+    "patch_id": "8097-zero-riscy-a-2-c5-u0.7-m1-p8-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.937236070632935
+      }
+    }
+  },
+  {
+    "patch_id": "9092-zero-riscy-a-3-c20-u0.85-m1-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear evidence of hotspots in the zoomed-in region.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.921442985534668
+      }
+    }
+  },
+  {
+    "patch_id": "8471-zero-riscy-a-2-c20-u0.9-m1-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 67,
+      "y": 114,
+      "radius": 8
+    },
+    "label_strength": 0.0009850538335740566,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 67,
+          "y": 114,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a potential hotspot.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.353307962417603
+      }
+    }
+  },
+  {
+    "patch_id": "7151-zero-riscy-a-1-c2-u0.75-m4-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 167,
+      "y": 84,
+      "radius": 8
+    },
+    "label_strength": 0.0022254972718656063,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 167,
+          "y": 84,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized bright spots indicating potential hotspots, especially in the RUDY and GR routing maps.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.444336175918579
+      }
+    }
+  },
+  {
+    "patch_id": "9735-zero-riscy-b-2-c5-u0.7-m3-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 38,
+      "y": 90,
+      "radius": 8
+    },
+    "label_strength": 0.05423690006136894,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 38,
+          "y": 90,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.6,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the RUDY_long and RUDY_pin maps, suggesting potential hotspot risk.",
+            "p_hotspot": 0.6
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.920616149902344
+      }
+    }
+  },
+  {
+    "patch_id": "7700-zero-riscy-a-1-c20-u0.8-m2-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 117,
+      "y": 100,
+      "radius": 8
+    },
+    "label_strength": 0.0003841577854473144,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 117,
+          "y": 100,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.9,
+        "raw_messages": [
+          {
+            "observation": "The CNN_prior panel shows a bright blob inside the red box, indicating a high risk of a hotspot.",
+            "p_hotspot": 0.9
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.192697048187256
+      }
+    }
+  },
+  {
+    "patch_id": "8687-zero-riscy-a-3-c2-u0.9-m1-p1-f1",
+    "design": "zero",
+    "region": {
+      "x": 74,
+      "y": 146,
+      "radius": 8
+    },
+    "label_strength": 0.13431210815906525,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 74,
+          "y": 146,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high intensities in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.552503824234009
+      }
+    }
+  },
+  {
+    "patch_id": "7678-zero-riscy-a-1-c20-u0.75-m3-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots are visible in the zoom panels.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.817253828048706
+      }
+    }
+  },
+  {
+    "patch_id": "9403-zero-riscy-b-1-c5-u0.75-m2-p3-f0",
+    "design": "zero",
+    "region": {
+      "x": 183,
+      "y": 77,
+      "radius": 8
+    },
+    "label_strength": 0.1026264950633049,
+    "bucket": "mid[0.05,0.20)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 183,
+          "y": 77,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.47240400314331
+      }
+    }
+  },
+  {
+    "patch_id": "8425-zero-riscy-a-2-c20-u0.8-m1-p7-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear localized structure or bright blob in zoom panels; no strong evidence of hotspot.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 10.996073961257935
+      }
+    }
+  },
+  {
+    "patch_id": "9779-zero-riscy-b-2-c5-u0.85-m1-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 235,
+      "y": 172,
+      "radius": 8
+    },
+    "label_strength": 0.0003657551424112171,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 235,
+          "y": 172,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures, but no clear bright blob or sharp spikes in the CNN_prior panel.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.40333604812622
+      }
+    }
+  },
+  {
+    "patch_id": "8740-zero-riscy-a-3-c5-u0.7-m4-p6-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.0,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating no immediate risk.",
+            "p_hotspot": 0.0
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.329487800598145
+      }
+    }
+  },
+  {
+    "patch_id": "8810-zero-riscy-a-3-c5-u0.85-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 99,
+      "y": 136,
+      "radius": 8
+    },
+    "label_strength": 0.8204609751701355,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 99,
+          "y": 136,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity spikes in the red box, indicating potential hotspot risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.179389953613281
+      }
+    }
+  },
+  {
+    "patch_id": "9734-zero-riscy-b-2-c5-u0.7-m3-p5-f0",
+    "design": "zero",
+    "region": {
+      "x": 54,
+      "y": 88,
+      "radius": 8
+    },
+    "label_strength": 0.030338719487190247,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 54,
+          "y": 88,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.7,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized high-intensity areas, suggesting potential hotspots.",
+            "p_hotspot": 0.7
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.622169733047485
+      }
+    }
+  },
+  {
+    "patch_id": "9987-zero-riscy-b-3-c2-u0.8-m2-p5-f1",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No localized structure or bright spots in zoom panels, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.013948917388916
+      }
+    }
+  },
+  {
+    "patch_id": "8778-zero-riscy-a-3-c5-u0.8-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoomed-in panels.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.015058994293213
+      }
+    }
+  },
+  {
+    "patch_id": "8060-zero-riscy-a-2-c2-u0.85-m3-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 121,
+      "y": 231,
+      "radius": 8
+    },
+    "label_strength": 0.0024905099999159575,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 121,
+          "y": 231,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no clear localized structure or bright bands inside the red box, suggesting low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.445405006408691
+      }
+    }
+  },
+  {
+    "patch_id": "10098-zero-riscy-b-3-c5-u0.8-m3-p7-f0",
+    "design": "zero",
+    "region": {
+      "x": 151,
+      "y": 196,
+      "radius": 8
+    },
+    "label_strength": 0.015091199427843094,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 151,
+          "y": 196,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.3,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structures within the red box, but no clear bright blob indicating a high risk.",
+            "p_hotspot": 0.3
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.296003103256226
+      }
+    }
+  },
+  {
+    "patch_id": "8943-zero-riscy-a-3-c20-u0.7-m1-p1-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "No clear hotspot evidence in the zoom panels; no bright blobs or sharp spikes.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.540977239608765
+      }
+    }
+  },
+  {
+    "patch_id": "7660-zero-riscy-a-1-c20-u0.75-m1-p4-f0",
+    "design": "zero",
+    "region": {
+      "x": 255,
+      "y": 255,
+      "radius": 8
+    },
+    "label_strength": 0.0,
+    "bucket": "clean(<0.01)",
+    "is_hotspot": 0,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 255,
+          "y": 255,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.1,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show no localized structure or bright spots, indicating low risk.",
+            "p_hotspot": 0.1
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.776413917541504
+      }
+    }
+  },
+  {
+    "patch_id": "8704-zero-riscy-a-3-c2-u0.9-m3-p2-f1",
+    "design": "zero",
+    "region": {
+      "x": 234,
+      "y": 143,
+      "radius": 8
+    },
+    "label_strength": 0.2869207561016083,
+    "bucket": "strong[>=0.20]",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 234,
+          "y": 143,
+          "radius": 8
+        },
+        "decision": "not_hotspot",
+        "score": 0.2,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show localized structure, but no clear bright blob inside the red box.",
+            "p_hotspot": 0.2
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 12.256350994110107
+      }
+    }
+  },
+  {
+    "patch_id": "9547-zero-riscy-b-1-c5-u0.8-m2-p4-f1",
+    "design": "zero",
+    "region": {
+      "x": 129,
+      "y": 99,
+      "radius": 8
+    },
+    "label_strength": 0.019669944420456886,
+    "bucket": "weak[0.01,0.05)",
+    "is_hotspot": 1,
+    "arms": {
+      "A1": {
+        "method": "A1",
+        "region": {
+          "x": 129,
+          "y": 99,
+          "radius": 8
+        },
+        "decision": "hotspot",
+        "score": 0.8,
+        "raw_messages": [
+          {
+            "observation": "The zoom panels show dense clusters and sharp spikes, indicating high risk.",
+            "p_hotspot": 0.8
+          }
+        ],
+        "api_calls": 1,
+        "elapsed_seconds": 11.390842914581299
+      }
+    }
+  }
+]

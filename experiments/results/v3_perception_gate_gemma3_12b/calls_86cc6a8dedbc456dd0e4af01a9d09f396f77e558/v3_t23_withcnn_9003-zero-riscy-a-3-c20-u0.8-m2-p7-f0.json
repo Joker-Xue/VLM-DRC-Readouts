@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows dense cell placement and significant RUDY wire demand, with a small bright CNN prediction suggesting a potential hotspot.",
+ "p_hotspot": 0.6,
+ "_elapsed_s": 16.0
+}

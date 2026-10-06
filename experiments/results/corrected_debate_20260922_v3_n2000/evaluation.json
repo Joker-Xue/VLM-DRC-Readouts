@@ -1,0 +1,390 @@
+{
+  "run": "experiments/results/corrected_debate_20260922_v3_n2000",
+  "manifest_sha256": "32f94efb07175a2204ac79203816109616e15c64d765c4be72241eb6ab604536",
+  "per_region_sha256": "d17dd2e830134c8a986ad0125cc87aca3085c914590e9e7ebdf6f6a07bcd8a36",
+  "n": 2000,
+  "positives": 704,
+  "interpretation": "Fixed own-history versus peer-history is the prespecified communication comparison. Early stopping is an operational secondary readout. Nominal region-bootstrap intervals do not capture dependence across designs or model/runtime configurations.",
+  "configurations": {
+    "H": {
+      "readouts": {
+        "single": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.5730032530162739,
+          "ap": 0.3914828267078201,
+          "ece": 0.16364499999999965,
+          "ece_sensitivity": {
+            "5": 0.16270499999999988,
+            "10": 0.16364499999999965,
+            "15": 0.16456499999999966,
+            "20": 0.16626499999999972
+          },
+          "brier": 0.26085435,
+          "nll": 0.7429241754098043,
+          "aurc": 0.32792887184192215,
+          "r80": 0.366875,
+          "score_hit": 0.6175,
+          "score_flag": 0.2305,
+          "hit": 0.619,
+          "flag": 0.207,
+          "abstain": 0.131,
+          "decision_score_disagreements": 47
+        },
+        "r1": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6534101869388328,
+          "ap": 0.490833821805262,
+          "ece": 0.03755125000000001,
+          "ece_sensitivity": {
+            "5": 0.029306250000000367,
+            "10": 0.03755125000000001,
+            "15": 0.03781624999999991,
+            "20": 0.03970625
+          },
+          "brier": 0.213925484375,
+          "nll": 0.6168579169801963,
+          "aurc": 0.24075803247846966,
+          "r80": 0.3,
+          "score_hit": 0.656,
+          "score_flag": 0.109,
+          "hit": 0.657,
+          "flag": 0.094,
+          "abstain": 0.155,
+          "decision_score_disagreements": 92
+        },
+        "own_fixed": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6713861707351291,
+          "ap": 0.5185401233108891,
+          "ece": 0.016664374999999804,
+          "ece_sensitivity": {
+            "5": 0.012499374999999941,
+            "10": 0.016664374999999804,
+            "15": 0.020108124999999952,
+            "20": 0.02204187500000005
+          },
+          "brier": 0.20902486484375,
+          "nll": 0.6060579901857458,
+          "aurc": 0.23232730894458112,
+          "r80": 0.291875,
+          "score_hit": 0.676,
+          "score_flag": 0.165,
+          "hit": 0.6655,
+          "flag": 0.0925,
+          "abstain": 0.14,
+          "decision_score_disagreements": 187
+        },
+        "peer_fixed": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.639600212191358,
+          "ap": 0.4616075167269941,
+          "ece": 0.07889525000000008,
+          "ece_sensitivity": {
+            "5": 0.07256150000000043,
+            "10": 0.07889525000000008,
+            "15": 0.08339274999999997,
+            "20": 0.08637775000000003
+          },
+          "brier": 0.223865224430625,
+          "nll": 0.6420010723021796,
+          "aurc": 0.255190513530951,
+          "r80": 0.3125,
+          "score_hit": 0.6495,
+          "score_flag": 0.1915,
+          "hit": 0.645,
+          "flag": 0.187,
+          "abstain": 0.1305,
+          "decision_score_disagreements": 73
+        },
+        "own_early": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6607289255401234,
+          "ap": 0.5102607975660813,
+          "ece": 0.03040062500000015,
+          "ece_sensitivity": {
+            "5": 0.026510625000000395,
+            "10": 0.03040062500000015,
+            "15": 0.033690624999999995,
+            "20": 0.03587187499999994
+          },
+          "brier": 0.21162336484375,
+          "nll": 0.6119339717831019,
+          "aurc": 0.2351521682104053,
+          "r80": 0.29375,
+          "score_hit": 0.674,
+          "score_flag": 0.155,
+          "hit": 0.6685,
+          "flag": 0.1045,
+          "abstain": 0.088,
+          "decision_score_disagreements": 133
+        },
+        "peer_early": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6496184720468573,
+          "ap": 0.46949201609698366,
+          "ece": 0.04939400000000012,
+          "ece_sensitivity": {
+            "5": 0.049056500000000385,
+            "10": 0.04939400000000012,
+            "15": 0.061350249999999995,
+            "20": 0.06618524999999993
+          },
+          "brier": 0.21760215200000002,
+          "nll": 0.6243808675307277,
+          "aurc": 0.24064724831057033,
+          "r80": 0.309375,
+          "score_hit": 0.6615,
+          "score_flag": 0.1695,
+          "hit": 0.6555,
+          "flag": 0.1685,
+          "abstain": 0.085,
+          "decision_score_disagreements": 52
+        }
+      },
+      "provenance": {
+        "logical_messages": 40000,
+        "generation_attempt_records": 40997,
+        "messages_with_retry": 914,
+        "fallback_messages": 13
+      },
+      "paired_bootstrap": {
+        "peer_fixed_minus_own_fixed": {
+          "replicates": 3000,
+          "seed": 42,
+          "difference": "B minus A",
+          "roc_ci": [
+            -0.050796453938116284,
+            -0.013554538055568615
+          ],
+          "ece_ci": [
+            0.026842392500000162,
+            0.07974432468750031
+          ],
+          "aurc_ci": [
+            0.006371193300755816,
+            0.03674539577718927
+          ],
+          "roc_positive_count": 4,
+          "ece_negative_count": 1,
+          "interpretation": "Nominal region percentile intervals; directional counts are not p-values."
+        },
+        "peer_early_minus_own_early": {
+          "replicates": 3000,
+          "seed": 42,
+          "difference": "B minus A",
+          "roc_ci": [
+            -0.02186851441168863,
+            -0.00031510512000349904
+          ],
+          "ece_ci": [
+            0.0009162749999998781,
+            0.03023822812499997
+          ],
+          "aurc_ci": [
+            -0.0005834751383454753,
+            0.011721695214309935
+          ],
+          "roc_positive_count": 68,
+          "ece_negative_count": 60,
+          "interpretation": "Nominal region percentile intervals; directional counts are not p-values."
+        }
+      }
+    },
+    "X": {
+      "readouts": {
+        "single": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.5852897464225589,
+          "ap": 0.39654410632085246,
+          "ece": 0.17477499999999957,
+          "ece_sensitivity": {
+            "5": 0.17185499999999995,
+            "10": 0.17477499999999957,
+            "15": 0.1742549999999996,
+            "20": 0.17481499999999964
+          },
+          "brier": 0.26017575,
+          "nll": 0.7394861632069021,
+          "aurc": 0.30538787651901333,
+          "r80": 0.360625,
+          "score_hit": 0.611,
+          "score_flag": 0.226,
+          "hit": 0.622,
+          "flag": 0.199,
+          "abstain": 0.1305,
+          "decision_score_disagreements": 54
+        },
+        "r1": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6795565244458474,
+          "ap": 0.5138122425451908,
+          "ece": 0.0520925,
+          "ece_sensitivity": {
+            "5": 0.05007250000000022,
+            "10": 0.0520925,
+            "15": 0.05903250000000008,
+            "20": 0.05707999999999999
+          },
+          "brier": 0.21093451249999998,
+          "nll": 0.6091443323077868,
+          "aurc": 0.22178117127993868,
+          "r80": 0.291875,
+          "score_hit": 0.669,
+          "score_flag": 0.081,
+          "hit": 0.657,
+          "flag": 0.059,
+          "abstain": 0.136,
+          "decision_score_disagreements": 102
+        },
+        "own_fixed": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6977155452090348,
+          "ap": 0.5247930050090365,
+          "ece": 0.042757499999999775,
+          "ece_sensitivity": {
+            "5": 0.04196375000000024,
+            "10": 0.042757499999999775,
+            "15": 0.04268624999999995,
+            "20": 0.04478500000000006
+          },
+          "brier": 0.2049174015625,
+          "nll": 0.5943149984720529,
+          "aurc": 0.2022539750781543,
+          "r80": 0.291875,
+          "score_hit": 0.6715,
+          "score_flag": 0.1325,
+          "hit": 0.6655,
+          "flag": 0.0645,
+          "abstain": 0.1265,
+          "decision_score_disagreements": 152
+        },
+        "peer_fixed": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6881603579194725,
+          "ap": 0.5067582922258247,
+          "ece": 0.08371916666666664,
+          "ece_sensitivity": {
+            "5": 0.07491916666666691,
+            "10": 0.08371916666666664,
+            "15": 0.07715916666666647,
+            "20": 0.08379041666666645
+          },
+          "brier": 0.21398063836805573,
+          "nll": 0.6160020332394224,
+          "aurc": 0.21421242778165395,
+          "r80": 0.300625,
+          "score_hit": 0.6575,
+          "score_flag": 0.1545,
+          "hit": 0.6615,
+          "flag": 0.1535,
+          "abstain": 0.109,
+          "decision_score_disagreements": 84
+        },
+        "own_early": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6863135478044332,
+          "ap": 0.5240917183757623,
+          "ece": 0.050231874999999905,
+          "ece_sensitivity": {
+            "5": 0.048324375,
+            "10": 0.050231874999999905,
+            "15": 0.055440625000000104,
+            "20": 0.05526812500000006
+          },
+          "brier": 0.20902739453125,
+          "nll": 0.6048951542905396,
+          "aurc": 0.21682633571959156,
+          "r80": 0.293125,
+          "score_hit": 0.6735,
+          "score_flag": 0.1185,
+          "hit": 0.669,
+          "flag": 0.069,
+          "abstain": 0.0815,
+          "decision_score_disagreements": 111
+        },
+        "peer_early": {
+          "n": 2000,
+          "positives": 704,
+          "roc": 0.6802585314955107,
+          "ap": 0.5067142728106078,
+          "ece": 0.05790479166666646,
+          "ece_sensitivity": {
+            "5": 0.057904791666666774,
+            "10": 0.05790479166666646,
+            "15": 0.06187729166666649,
+            "20": 0.0661310416666665
+          },
+          "brier": 0.21188265789930572,
+          "nll": 0.6108848979355077,
+          "aurc": 0.21790524264312727,
+          "r80": 0.299375,
+          "score_hit": 0.667,
+          "score_flag": 0.133,
+          "hit": 0.6705,
+          "flag": 0.1345,
+          "abstain": 0.066,
+          "decision_score_disagreements": 59
+        }
+      },
+      "provenance": {
+        "logical_messages": 40000,
+        "generation_attempt_records": 40885,
+        "messages_with_retry": 828,
+        "fallback_messages": 7
+      },
+      "paired_bootstrap": {
+        "peer_fixed_minus_own_fixed": {
+          "replicates": 3000,
+          "seed": 42,
+          "difference": "B minus A",
+          "roc_ci": [
+            -0.027534712403530094,
+            0.007709353372910273
+          ],
+          "ece_ci": [
+            0.022765098958333663,
+            0.055158625000000065
+          ],
+          "aurc_ci": [
+            -0.0010226857174906352,
+            0.02482479074623089
+          ],
+          "roc_positive_count": 444,
+          "ece_negative_count": 0,
+          "interpretation": "Nominal region percentile intervals; directional counts are not p-values."
+        },
+        "peer_early_minus_own_early": {
+          "replicates": 3000,
+          "seed": 42,
+          "difference": "B minus A",
+          "roc_ci": [
+            -0.015894361358073893,
+            0.003946492368233131
+          ],
+          "ece_ci": [
+            0.000622932291666668,
+            0.01922683854166652
+          ],
+          "aurc_ci": [
+            -0.004193024459068121,
+            0.006493241460800577
+          ],
+          "roc_positive_count": 369,
+          "ece_negative_count": 48,
+          "interpretation": "Nominal region percentile intervals; directional counts are not p-values."
+        }
+      }
+    }
+  }
+}

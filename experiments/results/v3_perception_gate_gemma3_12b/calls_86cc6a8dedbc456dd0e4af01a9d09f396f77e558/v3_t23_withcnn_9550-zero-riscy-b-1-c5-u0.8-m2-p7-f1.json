@@ -1,0 +1,5 @@
+{
+ "observation": "The CNN_prior shows a bright blob, and RUDY maps indicate localized congestion within the red box, suggesting potential routing challenges.",
+ "p_hotspot": 0.7,
+ "_elapsed_s": 16.2
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: "VLM Readouts for DRC Hotspot Detection: code, prompts and results"
+authors:
+  - family-names: Lin
+    given-names: Xushen
+    affiliation: "College of Computer Science and Software Engineering, Hohai University"
+  - family-names: Wang
+    given-names: Zhuoyi
+    affiliation: "College of Computer Science and Software Engineering, Hohai University"
+version: "1.0.0"
+date-released: "2026-10-06"
+license: MIT
+keywords: [design rule check, DRC hotspot, vision-language model, multi-agent debate, calibration, selective prediction, CircuitNet]
+preferred-citation:
+  type: article
+  title: "Vision-Language Readouts for DRC Hotspot Detection: A Calibrated CNN Baseline and a Matched-Control Test of Multi-Agent Debate"
+  authors:
+    - family-names: Lin
+      given-names: Xushen
+    - family-names: Wang
+      given-names: Zhuoyi
+  journal: "IEEE Access"
+  year: 2026
+  notes: "Submitted"

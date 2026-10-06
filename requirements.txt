@@ -1,0 +1,7 @@
+# Recompute all tables and figures from saved results (tested with Python 3.13)
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+scipy>=1.11
+jsonschema>=4.0
+pytest>=8.0

@@ -1,0 +1,43 @@
+{
+  "model": "/Users/jokerxue/.cache/huggingface/hub/models--mlx-community--Qwen2-VL-7B-Instruct-4bit/snapshots/1c638e970be36948e087e77d103b9147e1a9a1dd",
+  "n": {
+    "t1": 30
+  },
+  "t1": {
+    "n_valid": 30,
+    "top1_acc": 0.133,
+    "adjacent_acc": 0.867,
+    "chance": 0.111
+  },
+  "t23": {
+    "nocnn": {
+      "n": {
+        "strong": 20,
+        "weak": 20,
+        "clean": 20
+      },
+      "auc_strong_vs_clean": 0.775,
+      "auc_weak_vs_clean": 0.775,
+      "mean_p": {
+        "strong": 0.7,
+        "weak": 0.7,
+        "clean": 0.325
+      }
+    },
+    "withcnn": {
+      "n": {
+        "strong": 20,
+        "weak": 20,
+        "clean": 20
+      },
+      "auc_strong_vs_clean": 0.811,
+      "auc_weak_vs_clean": 0.825,
+      "mean_p": {
+        "strong": 0.695,
+        "weak": 0.7,
+        "clean": 0.305
+      }
+    }
+  },
+  "parse_failures": 0
+}

@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows dense cell placement and localized RUDY congestion, with a small bright spot in the CNN prediction, suggesting a potential hotspot.",
+ "p_hotspot": 0.6,
+ "_elapsed_s": 16.2
+}

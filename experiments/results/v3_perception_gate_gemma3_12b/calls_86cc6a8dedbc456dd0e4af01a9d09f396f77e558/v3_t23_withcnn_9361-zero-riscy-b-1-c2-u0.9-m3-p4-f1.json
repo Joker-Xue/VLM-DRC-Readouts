@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows a dense cluster of cells with high RUDY demand, indicating potential routing congestion and a hotspot risk.",
+ "p_hotspot": 0.75,
+ "_elapsed_s": 14.8
+}

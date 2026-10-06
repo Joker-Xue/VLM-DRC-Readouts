@@ -1,0 +1,7 @@
+# Additionally needed to re-run the experiments (Apple Silicon for MLX)
+-r requirements.txt
+torch>=2.2          # RouteNet front-end
+mlx==0.31.2         # versions used for the corrected debate run (recorded in its manifest)
+mlx-vlm==0.6.3
+transformers==5.12.0
+pillow>=10

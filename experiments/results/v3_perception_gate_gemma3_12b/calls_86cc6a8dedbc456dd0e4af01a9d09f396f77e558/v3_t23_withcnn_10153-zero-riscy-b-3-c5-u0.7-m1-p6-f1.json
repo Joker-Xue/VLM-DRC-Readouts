@@ -1,0 +1,5 @@
+{
+ "observation": "The region shows dense routing congestion and high cell density, with a localized bright spot in the CNN prediction, indicating a potential hotspot.",
+ "p_hotspot": 0.7,
+ "_elapsed_s": 16.6
+}
