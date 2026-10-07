@@ -1,5 +1,7 @@
 # VLM Readouts for DRC Hotspot Detection — Code, Prompts and Results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23206403.svg)](https://doi.org/10.5281/zenodo.23206403)
+
 This repository accompanies the article
 
 > X. Lin and Z. Wang, "Vision-Language Readouts for DRC Hotspot Detection: A Calibrated CNN Baseline and a Matched-Control Test of Multi-Agent Debate," submitted to *IEEE Access*, 2026.
@@ -98,7 +100,7 @@ reference_outputs/      archived outputs used by `make check`
 | `phase7_ablation_no_cnn_prior/` | CNN-prior panel ablation (V-A) |
 | `phase7_selfensemble/`, `phase7_selfensemble_traincross/` | Repeated sampling on test_N28 and train_N28, ten stored samples per candidate (V-D) |
 
-The raw generation records of the corrected debate (all 81,882 attempts: raw model text, parsed output, validation errors, seeds and timing; `corrected_debate_raw_generations.tar.gz`, 40 MB) are archived as a separate file of this release on Zenodo; they are not needed to recompute the paper. The historical runs did not retain raw generations; see Section III-D and the Limitations of the paper.
+The raw generation records of the corrected debate (all 81,882 attempts: raw model text, parsed output, validation errors, seeds and timing; `corrected_debate_raw_generations.tar.gz`, 40 MB) are archived as a separate file of the Zenodo release (<https://doi.org/10.5281/zenodo.23206403>); they are not needed to recompute the paper. The historical runs did not retain raw generations; see Section III-D and the Limitations of the paper.
 
 ## Re-running the experiments
 
@@ -114,4 +116,4 @@ Provenance files (manifests, perception-gate reports) contain absolute paths fro
 
 ## Licence and citation
 
-Code is released under the MIT License (`LICENSE`). Saved results, prompts and the evidence cache are released under CC BY 4.0 (`LICENSE-DATA`). The evidence cache is derived from CircuitNet-N28 with the official RouteNet weights; use of CircuitNet itself is subject to its own licence. Please cite the article and this archive (`CITATION.cff`).
+Code is released under the MIT License (`LICENSE`). Saved results, prompts and the evidence cache are released under CC BY 4.0 (`LICENSE-DATA`). The evidence cache is derived from CircuitNet-N28 with the official RouteNet weights; use of CircuitNet itself is subject to its own licence. Please cite the article and this archive, *VLM Readouts for DRC Hotspot Detection: code, prompts and results* (version 1.0.0), Zenodo, <https://doi.org/10.5281/zenodo.23206403> (`CITATION.cff`). The Zenodo archive is a snapshot of tag `v1.0.0` of this repository.
