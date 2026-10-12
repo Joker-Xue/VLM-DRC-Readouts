@@ -76,6 +76,10 @@ for ax,(label,y,single,mean) in zip(aa[:,0],sets):
 save(fig,'fig10_reliability_diagram')
 fig,aa=axes(height=2.8);ax=aa[0,0];ns=[1,3,5,10];ax.plot(ns,[D['ensemble']['phase7_selfensemble'][f'n{n}_mean']['roc'] for n in ns],'o-',color=COLORS[2],label='Mean aggregation')
 for arm,cost in [('A2',10.268),('A3',7.832)]:ax.scatter([cost],[D['historical_debate'][arm]['roc']],color=COLORS[1]);ax.annotate(arm,(cost,D['historical_debate'][arm]['roc']),xytext=(0,8),textcoords='offset points',ha='center')
-ax.set(xlabel='Logical turns per candidate',ylabel='ROC-AUC',ylim=(.45,.9),xlim=(.5,11.2));ax.legend(frameon=False);save(fig,'fig11_performance_vs_calls')
+# Corrected matched-control debate (temperature 0.7, own prompt): 12 logical calls per branch.
+CE=json.loads((ROOT/'experiments/results/corrected_debate_20260922_v3_n2000/evaluation.json').read_text())['configurations']
+for cfg,mk in [('H','s'),('X','D')]:
+ for br,fc in [('own','white'),('peer',COLORS[0])]:ax.scatter([12],[CE[cfg]['readouts'][f'{br}_fixed']['roc']],marker=mk,facecolor=fc,edgecolor=COLORS[0],s=22,zorder=3,label=f'Corrected {cfg}, {br}')
+ax.set(xlabel='Logical calls per candidate',ylabel='ROC-AUC',ylim=(.45,.9),xlim=(.5,13.2));ax.legend(frameon=False,fontsize=6,loc='lower left');save(fig,'fig11_performance_vs_calls')
 fig,aa=axes(height=2.7);ax=aa[0,0];x=[150,450,2000];v=[.067,.033,.025];ax.plot(x,v,'o-',color=COLORS[1]);ax.axhline(0,color='#777',ls='--');ax.errorbar([2000],[.025],yerr=[[.030],[.029]],fmt='none',c=COLORS[1],capsize=3);ax.set(xlabel='Approximate sample size per condition',ylabel='Test − train ROC-AUC',ylim=(-.015,.085));ax.text(.03,.03,'95% interval shown for n=2000 only',transform=ax.transAxes,fontsize=6.8);save(fig,'fig9_cross_design_convergence')
 print('Regenerated 10 figures; original rendered feature examples retained.')
