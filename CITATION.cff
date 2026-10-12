@@ -9,7 +9,7 @@ authors:
   - family-names: Wang
     given-names: Zhuoyi
     affiliation: "College of Computer Science and Software Engineering, Hohai University"
-version: "1.2.1"
+version: "1.2.2"
 doi: "10.5281/zenodo.23206403"
 repository-code: "https://github.com/Joker-Xue/VLM-DRC-Readouts"
 date-released: "2026-10-13"

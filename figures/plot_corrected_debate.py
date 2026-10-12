@@ -55,10 +55,10 @@ for k, (branch, col, lab) in enumerate([('own', '#9aa5b1', 'Own history'), ('pee
         vals.append(hv)
     vals = np.array(vals)
     bx.bar(x2 + (k - 0.5) * w, vals.mean(1), w, color=col, label=lab)
-    bx.scatter(np.repeat(x2 + (k - 0.5) * w, 2), vals.ravel(), s=9, color='black', zorder=3,
-               marker='o', linewidths=0)
+    for j, mk in enumerate(('o', '^')):  # H circles, X triangles
+        bx.scatter(x2 + (k - 0.5) * w, vals[:, j], s=10, color='black', zorder=3, marker=mk, linewidths=0)
 bx.set(xticks=x2, xticklabels=[n for n, _ in metrics], ylabel='Rate', ylim=(0, 0.8),
-       title='(b) Round-3 decisions (bars: H/X mean; dots: H, X)')
+       title='(b) Round-3 decisions (bars: H/X mean; ● H, ▲ X)')
 bx.legend(loc='upper right', frameon=False)
 for ext in ('png', 'pdf'):
     fig.savefig(OUTDIR / f'fig5_corrected_debate.{ext}', dpi=300, bbox_inches='tight', pad_inches=.05)
