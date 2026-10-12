@@ -6,7 +6,7 @@ This repository accompanies the article
 
 > X. Lin and Z. Wang, "Vision-Language Readouts for DRC Hotspot Detection: A Calibrated CNN Baseline and a Matched-Control Test of Multi-Agent Debate," submitted to *IEEE Access*, 2026.
 
-It contains the code, the exact prompts, and the saved per-region results needed to **recompute the metrics in Tables II–XVI and Figs. 4–11 without running any model**, plus the scripts that produced those results from CircuitNet-N28. Table I and Fig. 3 are transcribed from the screening reports (score-level logs exist only for the three later models); Table XVII and Fig. 12 combine the recomputable n=2000 estimate with two pilot estimates whose per-region outputs were not retained; Figs. 1–2 are illustrative.
+It contains the code, the exact prompts, and the saved per-region results needed to **recompute the metrics in Tables II–XI and XIII–XVI and Figs. 4–11 without running any model** (Table XII, the historical call counts in Table XVI and the Section VI-B disagreement statistics follow directly from the same saved per-region files), plus the scripts that produced those results from CircuitNet-N28. Table I and Fig. 3 are transcribed from the screening reports (score-level logs were retained only for Gemma-3-12B; the other rows are recorded summary values); Table XVII and Fig. 12 combine the recomputable n=2000 estimate with two pilot estimates whose per-region outputs were not retained; Figs. 1–2 are illustrative.
 
 | What you want | Time | Needs |
 |---|---|---|
