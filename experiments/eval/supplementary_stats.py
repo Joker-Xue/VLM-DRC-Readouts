@@ -10,6 +10,7 @@
     against the transferred isotonic CNN on the same test candidates, and of the own-history
     fixed readout against the round-1 mean in each configuration.
   * Section V-C: exact McNemar calculations for the historical A1 decisions against A2 and A3.
+  * Section V-B: paired bootstrap of the single-reader prompt packages (v3 minus v1, v4 minus v3).
 
 Usage: PYTHONPATH=. python experiments/eval/supplementary_stats.py
 """
@@ -115,7 +116,25 @@ def mcnemar():
         print(f"A1 versus {arm}: discordant {b}:{c}, exact McNemar p = {p:.1e}")
 
 
+def prompt_contrasts():
+    import sys
+    sys.path.insert(0, str(ROOT))
+    from experiments.eval.audited_paper_metrics import bootstrap
+    runs = {name: json.loads((RESULTS / d / "per_region.json").read_text()) for name, d in
+            (("v1", "phase7_arms_v3graded"), ("v3", "phase7_arms_v3graded_v3gatemirror"),
+             ("v4", "phase7_arms_v3graded_v4subtlebias"))}
+    ids = [r["patch_id"] for r in runs["v3"]]
+    assert all([r["patch_id"] for r in rows] == ids for rows in runs.values())
+    y = np.array([r["is_hotspot"] for r in runs["v3"]])
+    score = lambda name: [r["arms"]["A1"]["score"] for r in runs[name]]
+    for a, b in (("v1", "v3"), ("v3", "v4")):
+        bt = bootstrap(score(a), score(b), y, 3000)
+        print(f"{b} minus {a}: ROC interval [{bt['roc_ci'][0]:+.3f}, {bt['roc_ci'][1]:+.3f}], "
+              f"ECE interval [{bt['ece_ci'][0]:+.3f}, {bt['ece_ci'][1]:+.3f}]")
+
+
 if __name__ == "__main__":
+    prompt_contrasts()
     disagreement()
     gemma_intervals()
     corrected_contrasts()
