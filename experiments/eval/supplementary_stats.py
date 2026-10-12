@@ -6,6 +6,10 @@
   * Section V-A: percentile bootstrap intervals (3,000 resamples within each group, seed 42)
     for Gemma-3-12B strong-versus-clean and weak-versus-clean AUC, with the CNN-prior panel,
     from the archived per-call outputs of that screen.
+  * Abstract and Section V-C: paired bootstrap of the corrected H own-history fixed readout
+    against the transferred isotonic CNN on the same test candidates, and of the own-history
+    fixed readout against the round-1 mean in each configuration.
+  * Section V-C: exact McNemar calculations for the historical A1 decisions against A2 and A3.
 
 Usage: PYTHONPATH=. python experiments/eval/supplementary_stats.py
 """
@@ -61,6 +65,58 @@ def gemma_intervals(reps=3000, seed=42):
               f"95% interval [{lo:.2f}, {hi:.2f}] (n={len(pos)} vs {len(clean)})")
 
 
+def _load(path):
+    import gzip
+    if path.exists():
+        return json.loads(path.read_text())
+    with gzip.open(str(path) + ".gz", "rt") as fh:
+        return json.load(fh)
+
+
+def corrected_contrasts():
+    import sys
+    sys.path.insert(0, str(ROOT))
+    from sklearn.isotonic import IsotonicRegression
+    from experiments.eval.audited_paper_metrics import bootstrap
+    from experiments.eval.run_arms import load_records, stratified_sample
+
+    rows = _load(RESULTS / "corrected_debate_20260922_v3_n2000" / "per_region.json")
+    y = np.array([r["is_hotspot"] for r in rows])
+
+    def fixed(cfg, branch):
+        return [float(np.mean([m["p_hotspot"] for m in r["configurations"][cfg]["branches"][branch]["rounds"][2]]))
+                for r in rows]
+
+    test = stratified_sample(load_records("test_N28", "cnn-argmax"), 2000, 42)
+    train = stratified_sample(load_records("train_N28", "cnn-argmax"), 2000, 42)
+    assert [r["patch_id"] for r in test] == [r["patch_id"] for r in rows]
+    peak = lambda recs: np.array([r["cnn_prior"]["peak"] for r in recs])
+    label = lambda recs: np.array([r["is_hotspot"] for r in recs])
+    cnn = IsotonicRegression(out_of_bounds="clip").fit(peak(train), label(train)).predict(peak(test))
+    b = bootstrap(cnn, fixed("H", "own"), y, 3000)
+    print(f"H own-history fixed minus transferred CNN: ECE interval "
+          f"[{b['ece_ci'][0]:+.3f}, {b['ece_ci'][1]:+.3f}], ROC interval [{b['roc_ci'][0]:+.3f}, {b['roc_ci'][1]:+.3f}]")
+    for cfg in ("H", "X"):
+        r1 = [r["configurations"][cfg]["r1"]["score"] for r in rows]
+        b = bootstrap(r1, fixed(cfg, "own"), y, 3000)
+        print(f"{cfg} own-history fixed minus round-1 mean: ROC interval "
+              f"[{b['roc_ci'][0]:+.3f}, {b['roc_ci'][1]:+.3f}], ECE interval [{b['ece_ci'][0]:+.3f}, {b['ece_ci'][1]:+.3f}]")
+
+
+def mcnemar():
+    from scipy.stats import binomtest
+    rows = json.loads((RESULTS / "phase7_arms_v3gm_n2000_v2" / "per_region.json").read_text())
+    y = np.array([r["is_hotspot"] for r in rows])
+    correct = {a: np.array([(r["arms"][a]["decision"] == "hotspot") == bool(t) for r, t in zip(rows, y)])
+               for a in ("A1", "A2", "A3")}
+    for arm in ("A3", "A2"):
+        b = int(np.sum(correct["A1"] & ~correct[arm])); c = int(np.sum(~correct["A1"] & correct[arm]))
+        p = binomtest(b, b + c, 0.5).pvalue
+        print(f"A1 versus {arm}: discordant {b}:{c}, exact McNemar p = {p:.1e}")
+
+
 if __name__ == "__main__":
     disagreement()
     gemma_intervals()
+    corrected_contrasts()
+    mcnemar()
